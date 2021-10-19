@@ -1,0 +1,20 @@
+body {
+  background-color: rgb(28, 4, 48);
+}
+
+main {
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+p {
+  font-size: small;
+}
+
+#c1 {
+  background-color: rgb(110, 110, 143);
+  margin: auto;
+  width: 400px;
+  height: 200px;
+}
