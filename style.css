@@ -1,15 +1,28 @@
 body {
   background-color: rgb(28, 4, 48);
+  color: rgb(194, 194, 216);
+  ;
+  font-family: sans-serif;
 }
 
 main {
-  color: white;
   text-align: center;
-  font-family: sans-serif;
+}
+
+button {
+  border: none;
+}
+
+#color {
+  width: 20px;
+  height: 20px;
+  border: none;
+  padding: 0;
 }
 
 p {
   font-size: small;
+  font-style: italic;
 }
 
 #c1 {

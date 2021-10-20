@@ -12,6 +12,11 @@ document.getElementById('color').oninput = function() {
 butt.onclick = function() {
     ctx.clearRect(0, 0, canvas.clientWidth, canvas.clientHeight);
 }
+
+document.getElementById('range').oninput = function() {
+    ctx.lineWidth = this.value;
+    console.log(this.value);
+}
 ctx.lineWidth = 10;
 
 canvas.onmousedown = function(event) {
@@ -22,7 +27,7 @@ canvas.onmousedown = function(event) {
     ctx.beginPath();
     ctx.moveTo(x, y)
     canvas.onmousemove = function(event) {
-        console.log('poop');
+        ctx.lineCap = 'round';
         var x = event.offsetX;
         var y = event.offsetY;
         ctx.lineTo(x, y)
