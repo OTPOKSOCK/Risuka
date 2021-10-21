@@ -6,11 +6,12 @@
   <title>Рисюка</title>
   <link rel="stylesheet" href="style.css">
   <script src="jsus.js" defer></script>
+  <script src="page.js" defer></script>
 </head>
 
 <body>
   <main>
-    <h1>Рисуй сука</h1>
+    <h1 id="header" onmouseover="ChangeOver()" onmouseout="ChangeOut()">Рисюка</h1><br>
     <canvas id="c1" width="400" height="200"></canvas>
     <div>
       <button id="butt">Стереть всё</button>

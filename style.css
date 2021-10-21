@@ -1,12 +1,16 @@
 body {
   background-color: rgb(28, 4, 48);
   color: rgb(194, 194, 216);
-  ;
   font-family: sans-serif;
 }
 
 main {
   text-align: center;
+}
+
+#header {
+  display: inline-block;
+  margin: 10px 0;
 }
 
 button {
@@ -27,7 +31,7 @@ p {
 
 #c1 {
   background-color: rgb(110, 110, 143);
-  margin: auto;
+  margin: 10px;
   width: 400px;
   height: 200px;
 }
