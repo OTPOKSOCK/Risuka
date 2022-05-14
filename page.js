@@ -1,5 +1,5 @@
 function ChangeOver() {
-    document.getElementById("header").innerHTML = "Рисуй сука";
+    document.getElementById("header").innerHTML = "Рисуй короче снизу";
 };
 
 function ChangeOut() {
